@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "rg" {
-  name     = module.naming.resource_group.name
+  name     = "${var.resource_long_name}-rg"
   location = var.region
   tags     = var.tags
 }

@@ -1,3 +1,5 @@
+# az-resourcegroup
+
 This Terraform Module creates a resource group.
 
 ***
@@ -13,7 +15,12 @@ No requirements.
 
 ## Inputs
 
-No input.
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| region | n/a | `string` | n/a | yes |
+| resource\_long\_name | n/a | `string` | n/a | yes |
+| resource\_short\_name | n/a | `string` | n/a | yes |
+| tags | n/a | `map(string)` | n/a | yes |
 
 ## Outputs
 
@@ -22,6 +29,8 @@ No input.
 | id | Id of the resource group created. |
 | location | Location of the resource group created. |
 | name | Name of the resource group created. |
+
+***
 
 ## References
 
