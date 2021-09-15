@@ -19,5 +19,5 @@ variable "resource_short_name" {
 
 variable "resource_long_name" {
   type = string
-  default = ""
+  default = "demo"
 }
