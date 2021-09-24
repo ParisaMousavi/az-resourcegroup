@@ -14,10 +14,9 @@ variable "tags" {
 
 variable "resource_short_name" {
   type = string
-  default = ""
+  default = null
 }
 
 variable "resource_long_name" {
   type = string
-  default = "demo"
 }
