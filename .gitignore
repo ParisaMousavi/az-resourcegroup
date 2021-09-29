@@ -37,3 +37,7 @@ terraform.rc
 
 # Idea
 .idea
+
+# Parisa: removed this file from git unless the resource cannot be removed from module
+# Parisa: This file can exist on local to execute terraform init/validate
+provider.tf
