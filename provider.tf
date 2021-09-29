@@ -1,7 +1,0 @@
-terraform {
-
-}
-
-provider "azurerm" {
-  features {}
-}
