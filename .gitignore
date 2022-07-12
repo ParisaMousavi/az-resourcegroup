@@ -4,7 +4,6 @@
 # .tfstate files
 *.tfstate
 *.tfstate.*
-.terraform
 
 # Crash log files
 crash.log
@@ -35,9 +34,31 @@ override.tf.json
 terraform.rc
 .terraform.lock.hcl
 
-# Idea
-.idea
+# Ignore semantic-release packages
+node_modules
 
-# Parisa: removed this file from git unless the resource cannot be removed from module
-# Parisa: This file can exist on local to execute terraform init/validate
-provider.tf
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
