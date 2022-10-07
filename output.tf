@@ -1,14 +1,11 @@
 output "id" {
-  description = "Id of the resource group created."
-  value       = azurerm_resource_group.rg.id
+  value       = azurerm_resource_group.this.id
 }
 
 output "name" {
-  description = "Name of the resource group created."
-  value       = azurerm_resource_group.rg.name
+  value       = azurerm_resource_group.this.name
 }
 
 output "location" {
-  description = "Location of the resource group created."
-  value       = azurerm_resource_group.rg.location
+  value       = azurerm_resource_group.this.location
 }
